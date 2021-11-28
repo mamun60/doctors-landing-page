@@ -1,0 +1,206 @@
+/*
+==========================================
+                header Css
+==========================================
+*/
+@media only screen and (max-width:1120px){
+    h1{
+        font-size: 3.6rem;
+        line-height: 4.6rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .banner_content .btn_sec{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+    .header_top {
+        flex-direction: column;
+    }
+    .header_top .menu nav a{
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .banner_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner_left{
+        padding-bottom: 30px;
+    }
+}
+/*
+==========================================
+                service Css
+==========================================
+
+*/
+@media only screen and (max-width:768px){
+    .solutions_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .single_solutions{
+        margin-bottom: 25px;
+        background: #85b5e071;
+    }
+}
+/*
+==========================================
+                doctors Css
+==========================================
+
+*/
+@media screen and (max-width:1100px) {
+    .experience_content h2{
+        font-size: 2.6rem;
+    }
+    .experience_content>ul>li{
+        font-size: 1.0rem;
+    }
+    .experience_content>p{
+        font-size: 1.0rem;
+    }
+}
+@media screen and (max-width:768px){
+    .experience {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .experience_content{
+        margin-top: 20px;;
+    }
+}
+/*
+==========================================
+                service Css
+==========================================
+
+*/
+
+@media screen and (max-width:768px){
+    .service_content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
+==========================================
+            certifie doctors area Css
+==========================================
+
+*/
+@media screen and (max-width:1270px){
+    .doctors_area {
+        display: flex;
+        flex-basis: 25%;
+    }
+}
+@media screen and (max-width:768px){
+    .doctors_area {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .explore{
+        margin-top: 7%;
+    }
+}
+@media screen and (max-width:640px){
+    .doctors_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*
+==========================================
+                app area Css
+==========================================
+*/
+@media screen and (max-width:900px){
+    .app_store h2{
+        font-size: 2.8rem;
+    }
+    .app_store p{
+        font-size: 1.0rem;
+    }
+}
+@media screen and (max-width:768px){
+    .mobile_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .app_store h2{
+        font-size: 2.4rem;
+    }
+}
+/*
+==========================================
+                appoinment area
+==========================================
+*/
+@media screen and (max-width:1180px){
+    .appoinment_image img {
+        display: none;
+    }
+    h2{
+        font-size: 3.2rem;
+    }
+    .appoinment{
+        padding:20px 0 0 20px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    h2{
+        font-size: 2.4rem;
+    }
+    .appoinment{
+        padding:20px 0 0 20px;
+    }
+    .btn_3{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:430px){
+    .btn_3{
+        font-size: 1.0rem;
+    }
+}
+/*
+==========================================
+                contact area css
+==========================================
+*/
+@media screen and (max-width:768px){
+    .contact_content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .social_icon{
+        margin-bottom: 20px;
+    }
+}
+/*
+==========================================
+                footer area css
+==========================================
+*/
+@media screen and (max-width:768px){
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+    }
+}
